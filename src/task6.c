@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 		return -1;
 	}
 	char* index = atoi(argv[1])/atoi(argv[2]) < atoi(argv[3])/atoi(argv[4]) ? "First" : "Second";
-	printf("%s\n", index);
+	printf("A current of lesser force flows through %s\n section.", index);
 	return 0;
 }
 
